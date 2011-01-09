@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" id="http://ozeppi.com/AutoTransferMixiVoice2Twitter" version="1.1">
+  <name>AutoTransferMixiVoice2Twitter</name>
+  <description xml:lang="en">if you have allowed transfer to Twitter in "mixi Voice", automatically transfer tweet to Twitter.</description>
+  <description xml:lang="ja">mixiボイスのつぶやきをTwitterに転送することを許可している場合、デフォルトでTwitterへ転送するようにします</description>
+  <author href="http://twitter.com/ozeppi">ozeppi</author>
+  <icon src="icons/icon_064.png"/>
+  <access origin="http://mixi.jp" subdomains="true"/>
+</widget>

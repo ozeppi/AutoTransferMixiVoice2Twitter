@@ -1,0 +1,16 @@
+{
+    "name": "AutoTransferMixiVoice2Twitter",
+    "version": "1.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "http://mixi.jp/",
+                "http://mixi.jp/home.pl*",
+                "http://mixi.jp/recent_voice.pl*",
+                "http://mixi.jp/list_voice.pl*"
+            ],
+            "js": ["includes/auto_transfer_mixivoice2twitter.js"],
+            "run_at": "document_start"
+        }
+    ]
+}
