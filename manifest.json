@@ -1,6 +1,12 @@
 {
     "name": "AutoTransferMixiVoice2Twitter",
     "version": "1.1",
+    "description": "mixiボイスのつぶやきをTwitterに転送することを許可している場合、デフォルトでTwitterへ転送するようにします"
+    "icons": {
+        "32": "icons/icon_032.png",
+        "48": "icons/icon_048.png",
+        "128": "icons/icon_128.png"
+    },
     "content_scripts": [
         {
             "matches": [
